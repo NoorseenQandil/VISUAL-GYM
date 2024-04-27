@@ -12,7 +12,7 @@ Visual gym is template with HTML and CSS.
 ![Exercises](https://github.com/NoorseenQandil/VISUAL-GYM/assets/70522199/6ce7af67-f51c-4b96-9973-c9a178af165b)
 
 #### - Section1: Home
-  - Consists of 2 parts: The first part includes resturant logo image and navbar links. The second one includes main caption that consists of logo image, caption and two buttons.
+  - Consists of 2 parts: The first part includes gym logo image and navbar links. The second one includes main caption that consists of logo image, caption and two buttons.
   - Use Float property and set left to its value to put the logo image in navbar on the left side.
     ```
       #home .navbar img{
@@ -32,7 +32,7 @@ Visual gym is template with HTML and CSS.
   - Use grouping to make the two buttons the same padding and border values.
 
 #### - Section2: About
- - Consists of 2 sides: The left side includes chef image. The right one includes short paragraph about us and one button.
+ - Consists of 2 sides: The left side includes an image. The right one includes short paragraph about us and one button.
  - Use span tag in HTML to make difference between the words in title. Then put different color for it in CSS code.
    ```
      <h2><span>Our</span>Stor</h2>
@@ -43,7 +43,7 @@ Visual gym is template with HTML and CSS.
      }
    ```
 
-#### - Section4: Meals
+#### - Section3: Exercises
   - This section consists of six parts.
   - Each one includes one image, title and paragraph for description.
   - Put the width of each section is 33.33%.
@@ -51,18 +51,18 @@ Visual gym is template with HTML and CSS.
   - Use Clear property with float.
   - To make each image in circle shape, Use border-raduis property and set its value to 50%.
     ```
-     #meals .meal{
+     #exercises .exercise {
         width: 33.3333%;
         text-align: center;
         float: left;
     }
-      #meals .meal img{
+      #exercises .exercise img{
           border-radius: 50%;
       }
     ```
   - To seperate by line between the title and description, you can make empty div tag and set width, height and backgroud-color values for it.
     ```
-      #meals .meal .brbr{
+      #exercises .exercise .break{
       height: 3px;
       background-color: #09c;
       margin: 15px auto;
